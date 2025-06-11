@@ -1,8 +1,30 @@
 {
   "rewrites": [
     {
-      "source": "/",
+      "source": "/(.*)",
       "destination": "/index.html"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/about",
+      "dest": "/about.html"
+    },
+    {
+      "src": "/buying",
+      "dest": "/buying.html"
+    },
+    {
+      "src": "/selling", 
+      "dest": "/selling.html"
+    },
+    {
+      "src": "/guides",
+      "dest": "/guides.html"
     }
   ],
   "headers": [
@@ -11,7 +33,7 @@
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=86400"
+          "value": "public, max-age=0, must-revalidate"
         },
         {
           "key": "X-Content-Type-Options",
