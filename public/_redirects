@@ -1,0 +1,8 @@
+# Redirects for Netlify/Vercel
+/about    /about.html   200
+/buying   /buying.html  200  
+/selling  /selling.html 200
+/guides   /guides.html  200
+
+# Fallback for SPA
+/*    /index.html   200 
