@@ -1,24 +1,4 @@
 {
-  "routes": [
-    {
-      "src": "/about",
-      "dest": "/about.html"
-    },
-    {
-      "src": "/buying",
-      "dest": "/buying.html"
-    },
-    {
-      "src": "/selling", 
-      "dest": "/selling.html"
-    },
-    {
-      "src": "/guides",
-      "dest": "/guides.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ]
+  "cleanUrls": true,
+  "trailingSlash": false
 } 
